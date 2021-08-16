@@ -5,7 +5,7 @@
 
 #include "linked_list.h"
 
-typedef struct LinkedList Stack;
+typedef LinkedList Stack;
 
 Stack *stack_constructor();
 void stack_destructor(Stack *stack);

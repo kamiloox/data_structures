@@ -1,14 +1,13 @@
 #ifndef node_h
 #define node_h
 
-struct Node {
+typedef struct Node {
   void *data;
-
   struct Node *next;
-};
+} Node;
 
-struct Node *node_constructor(void *data, unsigned long size);
+Node *node_constructor(void *data, unsigned long size);
 
-void node_destructor(struct Node *node);
+void node_destructor(Node *node);
 
 #endif

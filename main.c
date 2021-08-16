@@ -6,7 +6,7 @@
 #define ARR_LENGTH 4
 
 int main() {
-  struct LinkedList *llist = llist_constructor();
+  LinkedList *llist = llist_constructor();
   int arr[ARR_LENGTH] = {5, 10, 15, 20};
 
   printf("\n------ LinkedList -------\n");
